@@ -1,0 +1,12 @@
+{
+  "name": "simutech-mod",
+  "version": "1.0.0",
+  "description": "SIMUTECH MOD - tools & programs website with admin panel, payments and access codes",
+  "private": true,
+  "main": "server/server.js",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/server.js",
+    "test": "node --disable-warning=ExperimentalWarning test/e2e.js"
+  }
+}
